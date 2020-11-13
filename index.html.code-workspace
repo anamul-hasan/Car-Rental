@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\One Page Project"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "One Page Project"
+	}
+}

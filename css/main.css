@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    
+}
+
+header{
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    width: 800px;
+    
+    
+    
+}
+
+ul li{
+    display: inline-block;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 2px 5px;
+    border: 6px solid transparent;
+    transition: 0.6s ease;
+    font-weight: 550;
+    position: static;
+}
+
+ul li a:hover{
+    background-color: crimson;
+    color:white; 
+}
+
+ul li.active a{
+    background-color: crimson;
+    color:white; 
+}
+
+.main{
+    max-width: 500px;
+    margin: auto;
+    padding-left: 40%;
+}
+
+.title{
+    position: absolute;
+    top: 27%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color:crimson;
+    font-size: 40px;
+}
+
+body{
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+    
+.login-page{
+    width: 360px;
+    padding-top: 5%;
+    padding-left: 34%;
+    
+}
+.form{
+    position:relative;
+    z-index;1;
+    background: rgba(7, 40, 195, 0.8);
+    max-width: 360px;
+    
+    margin: 80px auto 100px;
+    padding: 45px;
+    text-align: center;
+    
+    
+}    
+.form input{
+    font-family: "roboto",sans-serif;
+    outline:1;
+    background: #f2f2f2;
+    width:100%;
+    border; 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}   
+.form button{
+    font-family: "roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size; 14px;
+    cursor: pinter;
+}
+.form button:hover,.form button:active{
+    background: #43A047;
+}
+.form.message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+}
+.form .message a{
+    color: #4CAF50;
+    text-decoration: none;
+}
+.form .register-form{
+    display: none;
+}
+
+.UI{
+    width: 860px;
+    padding-top: 8%;
+    padding-left: 35%;
+}
+
+.registration{
+    width: 560px;
+    padding-top: 7%;
+    padding-left: 35%;
+}
+
+#container{
+    width: 860px;
+    padding-top: 8%;
+    padding-left: 35%;
+}
+
+input{
+    width: 60%;
+    padding-left:;
+    margin-left: 20px;
+
+}
+
+.profile{
+    width: 860px;
+    padding-top: 8%;
+    padding-left: 35%;
+}
+
+
+.table{
+    padding-top: 5px;
+}
+
+.table td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:20em;
+}
+    
+  
+
+#list{
+    padding-left: 47%;
+    padding-top: 8%;
+}
+
+.submit_btn{
+    background-color: white;
+    color: black;
+}
+
+.submit_btn:hover,.submit_btn:active{
+    background: crimson;
+}
+
+
